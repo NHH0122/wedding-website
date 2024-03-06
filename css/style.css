@@ -1830,7 +1830,7 @@ form label {
   margin-bottom: 20px; /* Điều chỉnh khoảng cách giữa tab và nội dung */
 }
 .tablinks {
-  border: none;
+  border: 2px solid red;
   outline: none;
   cursor: pointer;
   width: 80px;
@@ -1841,10 +1841,10 @@ form label {
   transition: 0.2s ease;
   border-radius: 10px;
 }
-/* .tablinks:hover{
-  background:red;
+.tablinks:hover{
+  background:rgb(245, 145, 170);
   color:#fff;
-} */
+}
 /* Tab active */
 .tablinks.active {
    background:red;
