@@ -1803,5 +1803,22 @@ form label {
   opacity: 0;
 }
 
+.fa-heart {
+  color: rgb(185, 0, 0);
+  font-size: 25px;
+  position: absolute;
+  animation:  heartMove linear 1;
+  top: -10vh;
+  z-index: 100;
+}
+
+@keyframes heartMove {
+  0%{
+      transform: translateY(-10vh) ;
+  }
+  100%{
+      transform: translateY(1800vh) ; /*Chỉnh chiều dài dường đi của tim ở đây*/
+  }
+}
 /*# sourceMappingURL=style.css.map */
 
