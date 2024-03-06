@@ -5,9 +5,5 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('index.html')
-@app.route('/streamlit')
-def streamlit():
-    st.set_page_config(page_title="My Streamlit App")
-    st.write("Wedding!")
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0", port=8888)
