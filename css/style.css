@@ -1131,7 +1131,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -1822,3 +1822,45 @@ form label {
 }
 /*# sourceMappingURL=style.css.map */
 
+/* Tab Links */
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Điều chỉnh khoảng cách giữa tab và nội dung */
+}
+.tablinks {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 80px;
+  padding: 0.5rem;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight:600;
+  transition: 0.2s ease;
+  border-radius: 10px;
+}
+/* .tablinks:hover{
+  background:red;
+  color:#fff;
+} */
+/* Tab active */
+.tablinks.active {
+   background:red;
+  color:#fff;
+}
+
+/* tab content */
+.tabcontent {
+  display: none;
+}
+/* Text*/
+.tabcontent p {
+  color: #333;
+  font-size: 16px;
+}
+/* tab content active */
+.tabcontent.active {
+  display: block;
+}
