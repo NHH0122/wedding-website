@@ -78,7 +78,7 @@
 							<li class="active"><a href="index.html">Trang chủ</a></li>
 							<li class="active"><a href="#fh5co-event">Sự kiện quan trọng</a></li>
 							<li class="active"><a href="#fh5co-gallery">Khoảng khắc ngọt ngào</a></li>
-							<li class="active"><a href="#fh5co-services">Highlights</a></li>
+							<!-- <li class="active"><a href="#fh5co-services">Highlights</a></li> -->
 						</ul>
 					</div>
 				</div>
@@ -207,18 +207,18 @@
 									<div class="col-md-12">
 										<div class="col-md-4 col-sm-4 text-center">
 											<div class="event-wrap animate-box">
-												<h3>Lễ Ăn Hỏi</h3>
+												<h3>Tiệc Cưới Nhà Gái</h3>
 												<div class="event-col">
 													<i class="icon-calendar"></i>
-													<span>11 March 2024</span>
+													<span>25 March 2024</span>
 												</div>
 												<div class="event-col">
 
 													<i class="icon-clock"></i>
-													<span>08:00 AM</span>
+													<span>18:00 PM</span>
 												</div>
 												<p>D/c: <b>Đội 9 Chợ Đám - Đại Áng - Thanh Trì - Hà Nội.</b>
-													<br>Tổ chức tại tư gia nhà Gái</br>
+													<br>Dùng tiệc tại tư gia nhà Gái</br>
 												</p>
 												<iframe
 													src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232.95520384215126!2d105.82760137601058!3d20.900920416626274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135b383385c8b8d%3A0x14174a2dc31d9c37!2zVHLGsOG7nW5nIE3huqdtIE5vbiBUdeG7lWkgVGjGoSDEkOG6oWkgw4FuZw!5e0!3m2!1svi!2s!4v1709640716510!5m2!1svi!2s"
@@ -292,10 +292,38 @@
 										<h4>Đám cưới của chúng tôi sẽ trọn vẹn hơn khi có thêm lời chúc phúc và sự hiện
 											diện của quí vị. Xin hãy xác nhận sự có mặt của mình để chúng tôi chuẩn bị
 											đón tiếp một cách chu đáo nhất nhé! ❤</h4>
-									</div>
-									<!-- <form action="">
+											<!-- Biểu mẫu -->
+											<form 
+												method="POST" 
+												action="https://script.google.com/macros/s/AKfycbzQJhSH5bfHjboHG9D0lEeK4JhB9K4I5yiJsc02o76QndndTFYJeeOjY-g6JsP4vSBD/exec">
+													<label for="name">Tên của Quý khách:</label><br>
+													<input type="text" name="Name" placeholder="Name" required><br>
 
-									</form> -->
+													<label for="phone">Số điện thoại của Quý khách:</label><br>
+													<input type="tel" name="Phone" placeholder="Phone" required pattern="[0-9]{10}"><br>
+
+													<label for="wedding">Quý khách tham dự được bữa tiệc thành hôn nào?</label><br>
+													<input type="checkbox" name="NT25/03" placeholder="NT25/03" value="yes" /> Tiệc cưới nhà trai 25/03
+													<input type="checkbox" name="NT26/03" placeholder="NT26/03" value="yes" /> Tiệc cưới nhà trai 26/03
+													<input type="checkbox" name="TH" placeholder="TH" value="yes" /> Lễ Thành Hôn<br>
+													<input type="checkbox" name="NG25/03" placeholder="NG25/03" value="yes" /> Tiệc cưới nhà gái 25/03
+													<input type="checkbox" name="NG26/03" placeholder="NG26/03" value="yes" /> Tiệc cưới nhà gái 26/03
+													<input type="checkbox" name="VQ" placeholder="VQ" value="yes" /> Lễ Vu Quy<br>
+
+													<label for="Comfirm">Quý khách sẽ đến chứ?</label>
+													<select name="Comfirm" aria-placeholder="Comfirm" required>
+													<option value="yes">Tôi chắc chắn sẽ đến</option>
+													<option value="no">Tiếc quá tôi không đến được</option>
+													</select><br>
+
+													<label for="invited">Quý khách là khách mời của ai?</label><br>
+													<input type="radio" name="Invited" placeholder="Invited" checked="checked" value="CR" required/> Chú Rể
+													<input type="radio" name="Invited" placeholder="Invited" value="CD" required/> Cô Dâu
+													<br>
+
+													<button type="submit">Xác Nhận Tham Dự</button>
+											</form>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -561,7 +589,7 @@
 
 
 
-		<div id="fh5co-services" class="fh5co-section-gray">
+		<!-- <div id="fh5co-services" class="fh5co-section-gray">
 			<div class="container">
 
 				<div class="row animate-box">
@@ -581,7 +609,8 @@
 				</div>
 			</div>
 
-		</div>
+		</div> -->
+	
 	</div>
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
