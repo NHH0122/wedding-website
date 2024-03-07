@@ -1817,7 +1817,7 @@ form label {
       transform: translateY(-10vh) ;
   }
   100%{
-      transform: translateY(1300vh) ;
+      transform: translateY(900vh) ;
   }
 }
 /*Chỉnh chiều dài dường đi của tim ở dòng transform: translateY(1800vh) */
