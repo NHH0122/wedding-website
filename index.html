@@ -88,7 +88,7 @@
 
 		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/bg.jpg);"
 			data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
+
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
@@ -98,8 +98,7 @@
 								<br>
 								<img src="images/fprint.png" alt="Shyam + Rincy">
 								<h2>26.03.2024</h2>
-								<h2>"We found each other on the flow of fate." <br>(Em Đồng Ý (I Do) - Đức Phúc, 911)
-								</h2>
+								<h2>"We found each other on the flow of fate."</h2>
 								<div class="flipTimebox">
 									<div class="clock clock-fix"></div>
 								</div>
@@ -114,7 +113,7 @@
 
 
 		<div id="fh5co-event" class="fh5co-bg">
-			<div class="overlay"></div>
+
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
@@ -289,42 +288,65 @@
 								<div class="row">
 									<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 										<h2>Bạn sẽ đến chứ ?</h2>
-										<h4>Đám cưới của chúng tôi sẽ trọn vẹn hơn khi có thêm lời chúc phúc và sự hiện
+										<h3>Đám cưới của chúng tôi sẽ trọn vẹn hơn khi có thêm lời chúc phúc và sự hiện
 											diện của quí vị. Xin hãy xác nhận sự có mặt của mình để chúng tôi chuẩn bị
-											đón tiếp một cách chu đáo nhất nhé! ❤</h4>
-											<!-- Biểu mẫu -->
-											<form 
-												
-												method="POST" 
-												action="https://script.google.com/macros/s/AKfycbz6aSXYBCgJEoyD4BdG3bUI6oOUrFmTTTc8ZBSwSenbQSAJ1165GuhuuNV_O3VuPIoJ/exec">
-													<label for="name">Tên của Quý khách:</label><br>
-													<input type="text" name="Name" placeholder="Name" required><br>
+											đón tiếp một cách chu đáo nhất nhé! ❤</h3>
 
-													<label for="phone">Số điện thoại của Quý khách:</label><br>
-													<input type="tel" name="Phone" placeholder="Phone" required pattern="[0-9]{10}"><br>
-
-													<label for="wedding">Quý khách tham dự được bữa tiệc thành hôn nào?</label><br>
-													<input type="checkbox" name="NT25/03" placeholder="NT25/03" value="yes" /> Tiệc cưới nhà trai 25/03
-													<input type="checkbox" name="NT26/03" placeholder="NT26/03" value="yes" /> Tiệc cưới nhà trai 26/03
-													<input type="checkbox" name="TH" placeholder="TH" value="yes" /> Lễ Thành Hôn<br>
-													<input type="checkbox" name="NG25/03" placeholder="NG25/03" value="yes" /> Tiệc cưới nhà gái 25/03
-													<input type="checkbox" name="NG26/03" placeholder="NG26/03" value="yes" /> Tiệc cưới nhà gái 26/03
-													<input type="checkbox" name="VQ" placeholder="VQ" value="yes" /> Lễ Vu Quy<br>
-
-													<label for="Comfirm">Quý khách sẽ đến chứ?</label>
-													<select name="Comfirm" aria-placeholder="Comfirm" required>
-													<option value="yes">Tôi chắc chắn sẽ đến</option>
-													<option value="no">Tiếc quá tôi không đến được</option>
-													</select><br>
-
-													<label for="invited">Quý khách là khách mời của ai?</label><br>
-													<input type="radio" name="Invited" placeholder="Invited" checked="checked" value="CR" required/> Chú Rể
-													<input type="radio" name="Invited" placeholder="Invited" value="CD" required/> Cô Dâu
-													<br>
-
-													<button type="submit">Xác Nhận Tham Dự</button>
-											</form>
 									</div>
+								</div>
+								<!-- Biểu mẫu -->
+								<div class="formcss">
+									<form method="POST"
+										action="https://script.google.com/macros/s/AKfycbzBZqD4qBn__Rv2Wpg09Ef1b6uGd1lew9K9JAadBrqb-NJmLOEtByBO0euzBckjmUQt/exec"
+										target="fh5co-gallery">
+										<label class="formlabel" for="name">Tên của Quý khách:</label><br>
+										<input class="forminput" type="text" name="Name" placeholder="Tên của Quý Khách"
+											required><br>
+
+										<label class="formlabel" for="phone">Số điện thoại của Quý Khách:</label><br>
+										<input type="tel" class="forminput" name="Phone"
+											placeholder="Số điện thoại của Quý Khách" required pattern="[0-9]{10}"><br>
+
+										<label for="wedding" class="formlabel">
+											Quý khách tham dự được bữa tiệc thành hôm
+											nào?
+										</label><br>
+
+										<input type="checkbox" name="NT25/03" placeholder="NT25/03" value="yes" />
+										Tiệc cưới nhà trai 25/03
+
+										<input type="checkbox" name="NT26/03" placeholder="NT26/03" value="yes" />
+										Tiệc cưới nhà trai 26/03
+
+										<input type="checkbox" name="TH" placeholder="TH" value="yes" /> Lễ
+										Thành
+										Hôn<br>
+
+										<input type="checkbox" name="NG25/03" placeholder="NG25/03" value="yes" />
+										Tiệc cưới nhà gái 25/03
+
+										<input type="checkbox" name="NG26/03" placeholder="NG26/03" value="yes" />
+										Tiệc cưới nhà gái 26/03
+										<input type="checkbox" name="VQ" placeholder="VQ" value="yes" /> Lễ Vu
+										Quy<br>
+
+										<label class="formlabel" for="Comfirm">Quý khách sẽ đến chứ?</label> <br>
+										<select class="formselect" name="Comfirm" aria-placeholder="Comfirm" required>
+											<option class="formoption" value="yes">Tôi chắc chắn sẽ đến</option>
+											<option class="formoption" value="no">Tiếc quá tôi không đến được</option>
+										</select><br>
+
+										<label for="invited" class="formlabel">
+											Quý khách là khách mời của ai?
+										</label><br>
+										<input type="radio" name="Invited" placeholder="Invited" checked="checked"
+											value="CR" required /> Chú Rể
+										<input type="radio" name="Invited" placeholder="Invited" value="CD" required />
+										Cô Dâu
+										<br>
+
+										<button class="formbutton" type="submit">Xác Nhận Tham Dự</button>
+									</form>
 								</div>
 							</div>
 						</div>
@@ -339,111 +361,6 @@
 						<h2>Khoảnh khắc ngọt ngào</h2>
 					</div>
 				</div>
-				<!-- <div class="row row-bottom-padded-md">
-					<div class="col-md-12">
-						<ul id="fh5co-gallery-list">
-
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/0.jpg); ">
-								<a href="images/0.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/1.jpg); ">
-								<a href="images/1.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/10.jpg); ">
-								<a href="images/10.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/3.jpg); ">
-								<a href="images/3.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/4.jpg); ">
-								<a href="images/4.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/13.jpg); ">
-								<a href="images/13.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/5.jpg); ">
-								<a href="images/5.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/12.jpg); ">
-								<a href="images/12.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/7.jpg); ">
-								<a href="images/7.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/11.jpg); ">
-								<a href="images/11.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/8.jpg); ">
-								<a href="images/8.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/2.jpg); ">
-								<a href="images/2.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/9.jpg); ">
-								<a href="images/9.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/6.jpg); ">
-								<a href="images/6.jpg">
-									<div class="case-studies-summary">
-									</div>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div> -->
 
 				<div class="container">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -470,104 +387,78 @@
 							<div class="item active ">
 								<img src="images/0.jpg" alt="Los Angeles" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>Los Angeles</h3>
-									<p>LA is always so much fun!</p> -->
 								</div>
 							</div>
 
 							<div class="item">
 								<img src="images/1.jpg" alt="Chicago" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>Chicago</h3>
-									<p>Thank you, Chicago!</p> -->
 								</div>
 							</div>
 
 							<div class="item">
 								<img src="images/10.jpg" alt="New York" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>New York</h3>
-									<p>We love the Big Apple!</p> -->
 								</div>
 							</div>
 
 							<div class="item">
 								<img src="images/11.jpg" alt="New York" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>New York</h3>
-									<p>We love the Big Apple!</p> -->
 								</div>
 							</div>
 
 							<div class="item">
 								<img src="images/12.jpg" alt="New York" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>New York</h3>
-									<p>We love the Big Apple!</p> -->
 								</div>
 							</div>
 
 							<div class="item">
 								<img src="images/13.jpg" alt="New York" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>New York</h3>
-									<p>We love the Big Apple!</p> -->
 								</div>
 							</div>
 
 							<div class="item">
 								<img src="images/2.jpg" alt="New York" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>New York</h3>
-									<p>We love the Big Apple!</p> -->
 								</div>
 							</div>
 
 							<div class="item">
 								<img src="images/3.jpg" alt="New York" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>New York</h3>
-									<p>We love the Big Apple!</p> -->
 								</div>
 							</div>
 
 							<div class="item">
 								<img src="images/4.jpg" alt="New York" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>New York</h3>
-									<p>We love the Big Apple!</p> -->
 								</div>
 							</div>
 
 							<div class="item">
 								<img src="images/5.jpg" alt="New York" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>New York</h3>
-									<p>We love the Big Apple!</p> -->
 								</div>
 							</div>
 
 							<div class="item">
 								<img src="images/6.jpg" alt="New York" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>New York</h3>
-									<p>We love the Big Apple!</p> -->
 								</div>
 							</div>
 
 							<div class="item">
 								<img src="images/8.jpg" alt="New York" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>New York</h3>
-									<p>We love the Big Apple!</p> -->
 								</div>
 							</div>
 
 							<div class="item">
 								<img src="images/9.jpg" alt="New York" style="width: 80%; padding-left: 22%;">
 								<div class="carousel-caption">
-									<!-- <h3>New York</h3>
-									<p>We love the Big Apple!</p> -->
 								</div>
 							</div>
 
@@ -590,28 +481,80 @@
 
 
 
-		<!-- <div id="fh5co-services" class="fh5co-section-gray">
+		<div id="fh5co-services" class="fh5co-section-gray">
 			<div class="container">
-
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Highlights</h2>
-
+						<h2>Gửi Lời Chúc Tới Cô Dâu Và Chú Rể</h2>
+						<span>Cảm ơn Quý khách vì đã trở thành một phần quan trọng trong ngày đặc biệt của chúng
+							tôi!</span>
 					</div>
 				</div>
 
-
-
 				<div class="container animate-box">
-					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-						<a href="#" class="popup-vimeo"><i class="icon-video2"></i></a>
-						<div class="overlay"></div>
+
+					<div class="row">
+						<div class="display-t">
+							<div class="display-tc">
+								<div class="col-md-12">
+									<div class="col-md-6 col-sm-6 text-center">
+										<div class="containerImage">
+											<img class="cardIamge" src="images/9.jpg" style="max-width:350px;" alt="">
+											<div class="card">
+												<h2>CTK: Nguyễn Huy Hoàng</h2>
+												<h3>STK: 5430119989999</h3>
+												<h3>NH: MB Bank</h3>
+												<img src="images/qrNam.png" style="min-width:150px;max-width: 150px;"
+													alt="">
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6 text-center">
+										<div class="containerImage">
+											<img class="cardIamge" src="images/6.jpg" style="max-width:350px;" alt="">
+											<div class="card">
+												<h2>CTK: Nguyễn Thị Trang</h2>
+												<h3>STK: 222230551</h3>
+												<h3>NH: VP Bank</h3>
+												<img src="images/qrNu.png" style="min-width:150px;max-width: 150px;"
+													alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
 					</div>
 				</div>
 			</div>
 
-		</div> -->
-	
+		</div>
+
+		<!-- Ending -->
+		<div class=" fh5co-section-gray">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Thank You!</h2>
+						<br>
+						<h3>Trân trọng cảm ơn quý vị quan khách đã dành thời gian
+							quý báu đến tham dự lễ thành hôn
+							của gia đình</h3>
+						<h3>Sự hiện diện và những lời chúc phúc của quý vị là món
+							quà vô giá dành cho đôi uyên ương.
+						</h3>
+						<h3>Chúng tôi xin gửi lời tri ân sâu sắc nhất đến quý vị và
+							mong rằng sẽ luôn giữ gìn tình
+							cảm tốt đẹp này.</h3>
+						<h3>Hy vọng sẽ gặp lại quý vị trong những dịp vui khác.</h3>
+						<h3>Nguyễn Hoàng &amp; Nguyễn Trang</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
@@ -651,34 +594,10 @@
 	<!-- <center>View Source Code on <a href="https://github.com/shyamjos/wedding-website">GitHub <img
 				src="images/github-logo.png"> </a> </center> -->
 
-	<!-- Ending -->
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/7.jpg);"
-		data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Thank You!</h1>
-							<br>
-							<h2>Trân trọng cảm ơn quý vị quan khách đã dành thời gian quý báu đến tham dự lễ thành hôn
-								của gia đình</h2>
-							<h2>Sự hiện diện và những lời chúc phúc của quý vị là món quà vô giá dành cho đôi uyên ương.
-							</h2>
-							<h2>Chúng tôi xin gửi lời tri ân sâu sắc nhất đến quý vị và mong rằng sẽ luôn giữ gìn tình
-								cảm tốt đẹp này.</h2>
-							<h2>Hy vọng sẽ gặp lại quý vị trong những dịp vui khác.</h2>
-							<h2>Nguyễn Hoàng &amp; Nguyễn Trang</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<audio hidden preload="auto" autoplay loop>
+
+	<!-- <audio hidden preload="auto" autoplay loop>
 		<source src="/EmDongYIDo-DucPhucx911-9034315.mp3">
-	</audio>
+	</audio> -->
 </body>
 
 </html>
