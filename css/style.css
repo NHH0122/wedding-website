@@ -1841,6 +1841,7 @@ form label {
   font-weight:600;
   transition: 0.2s ease;
   border-radius: 10px;
+  /* z-index: 101; */
 }
 .tablinks:hover{
   background:rgb(245, 145, 170);
@@ -1867,16 +1868,22 @@ form label {
 }
 
 .formcss{
+  background-image: url(../images/bgform.jpg);
+  background-size: 100% 100%; /* hoặc contain tùy thuộc vào mong muốn của bạn */
+  background-position: center center;
+  background-repeat: no-repeat;
+
   border: 2px solid red;
   outline: none;
   cursor: pointer;
   text-align: left;
-  width: 600px;
+  max-width: 600px;
   padding: 3rem;
-  margin-left:10%;
+  margin-left:auto;
+  margin-right: auto;
   font-size: 13px;
   text-transform: uppercase;
-  color: #000;
+  color: #ffffff;
   font-weight:600;
   transition: 0.2s ease;
   border-radius: 10px;
@@ -1888,20 +1895,22 @@ form label {
   font-size: 20px; 
   font-style: italic; 
   margin-top: 1rem; 
-  color: black; 
+  color: rgb(253, 253, 253); 
   font-weight:bolder;
   font-family: "Dancing Script"
 }
 .forminput{
   font-size: 20px;
-  width: 500px;
+  max-width: 500px;
+  min-width: 300px;
   height: 40px;
   border: 2px solid red;
   border-radius: 10px;
 }
 .formselect{
   font-size: 20px;
-  width: 300px;
+  max-width: 300px;
+  color: #000;
   height: 40px;
   border: 2px solid red;
   border-radius: 10px;
@@ -1926,12 +1935,12 @@ form label {
   background-color: rgb(151, 16, 16);
 }
 .containerImage {
-  width: 500px;
+  max-width: 500px;
   margin: 20px auto;
 }
 .cardIamge {
   border-radius: 100%;
-  width: 400px;
+  max-width: 400px;
   margin-bottom: 2rem;
 }
 .card {
