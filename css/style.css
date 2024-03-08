@@ -1904,6 +1904,7 @@ form label {
   max-width: 500px;
   min-width: 300px;
   height: 40px;
+  color: #000;
   border: 2px solid red;
   border-radius: 10px;
 }
